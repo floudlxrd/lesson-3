@@ -1,1 +1,26 @@
-a{color: #0054a8;}
+body{font-family: rubik, helvetica, arial, sans-serif;
+font-size: 14px;}
+
+a{color: rgb(0, 84, 168);
+text-decoration: none;}
+
+.main-article{width: 45%;
+margin: auto;
+padding: 30px;
+background-color: rgb(214, 218, 231);}
+
+/*стили для таблички*/
+.table-history{border-collapse: collapse;
+width: 75%;
+background-color: rgb(248, 249, 250);}
+
+.table-history th,
+.table-history td{
+    border: 1px solid gray; 
+    padding: 6px; 
+}
+.float-right{float: right;}
+.w20{width: 20%;}
+.table-history th{
+    color: rgb(0, 84, 168);
+    background-color: rgb(234, 236, 240);}
