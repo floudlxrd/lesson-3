@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 body{font-family: rubik, helvetica, arial, sans-serif;
 font-size: 14px;}
 
@@ -5,9 +7,39 @@ a{color: rgb(0, 84, 168);
 text-decoration: none;}
 
 .main-article{width: 45%;
+min-width: 720px;
 margin: auto;
 padding: 30px;
 background-color: rgb(214, 218, 231);}
+
+.info{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    padding-left: 60px;
+    border-width: 1px;
+    border-left-width: 4px;
+    border-style: solid;
+    background-color: rgb(188, 212, 245);
+    border-left-color: rgb(187, 194, 198);
+}
+
+.nav-menu{
+    width: 120px;
+    border: 1px solid rgb(187, 194, 198); 
+    background-color: white;
+}
+
+.nav-list{
+    padding-left: 34px;
+}
+
+.title-menu{
+    border-bottom: 1px solid rgb(187, 194, 198);
+    margin: 0;
+    padding: 5px 15px;
+    background-color: rgb(234, 236, 240);
+    font-size: 1em;}
 
 /*стили для таблички*/
 .table-history{border-collapse: collapse;
@@ -20,7 +52,8 @@ background-color: rgb(248, 249, 250);}
     padding: 6px; 
 }
 .float-right{float: right;}
-.w20{width: 20%;}
+.w25{width: 25%;}
+.w40{width: 40%;}
 .table-history th{
     color: rgb(0, 84, 168);
     background-color: rgb(234, 236, 240);}
